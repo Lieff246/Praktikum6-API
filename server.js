@@ -364,6 +364,7 @@ const schema = buildSchema(`
         name: String!
         weather: Weather
     }
+    // harusnya disini eksperimen 3 tapi sa lagi malas vibe code, apalagi manual coding
     type Weather {
         temperature: Float
         windSpeed: Float
